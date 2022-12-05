@@ -198,6 +198,7 @@ function App() {
   return (
     <div className="App">
       <h1>Human Presence Detection</h1>
+      <br/>
 
       <div className='fore'>
         <img src={red} alt= "Error"></img>
@@ -205,29 +206,43 @@ function App() {
         <img src={green} alt= "Error"></img>
         <p>Present</p>
       </div>
-
+      <br/>
+    
+      <h2>Faculty Cubicals</h2>
+      <div className='forb'>
       <div className='row'>
+        <div className='small'>
         <img src = {red} alt = "Error" id = 'cabin1status'></img>
+        </div>
         <img src = {red} alt = "Error" id = 'cabin2status'></img>
         <img src = {red} alt = "Error" id = 'cabin3status'></img>
       </div>
 
       <div className='row'>
+      <div className='small1'>
         <img src = {red} alt = "Error" id = 'cabin4status'></img>
+        </div>
         <img src = {red} alt = "Error" id = 'cabin5status'></img>
         <img src = {red} alt = "Error" id = 'cabin6status'></img>
       </div>
+      <br/>
+      <br/>
       
       <div className='row'>
+      <div className='small2'>
         <img src = {red} alt = "Error" id = 'cabin7status'></img>
+        </div>
         <img src = {red} alt = "Error" id = 'cabin8status'></img>
         <img src = {red} alt = "Error" id = 'cabin9status'></img>
       </div>
 
       <div className='row'>
+      <div className='small3'>
         <img src = {red} alt = "Error" id = 'cabin10status'></img>
+        </div>
         <img src = {red} alt = "Error" id = 'cabin11status'></img>
         <img src = {red} alt = "Error" id = 'cabin12status'></img>
+      </div>
       </div>
     
     </div>
