@@ -20,7 +20,7 @@ function App() {
   var rff12 = 0;
 
   const getRoomData = () => {
-    Axios.get('http://localhost:3001/rnd/102').then((response) => {
+    Axios.get('http://65.49.44.136:3001/rnd/102').then((response) => {
       console.log(response.data);
       rff1 = response.data.rff1;
       rff2 = response.data.rff2;
