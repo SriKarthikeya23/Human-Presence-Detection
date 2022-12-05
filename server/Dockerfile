@@ -1,6 +1,6 @@
 FROM node:16-alpine
 
-WORKDIR E:\Docker\HumanPresenceDetection\server
+WORKDIR /app
 
 COPY package*.json ./
 
