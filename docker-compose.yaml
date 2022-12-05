@@ -11,6 +11,6 @@ services:
     build:
       context: ./client
     ports:
-      - "3000:3000"
+      - "5000:5000"
     container_name: client-side
     stdin_open: true
